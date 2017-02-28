@@ -10,10 +10,16 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    The staging area allows the programmer to specify exactly what changes are to be committed.  The objective is to keep commits small and limit each commit to one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Branch out for unique bug fixes, new features or to update docs.  Branches allow development to occur without affecting the production level (master) branch until a particular branch is merged with the master branch.
+
 How do the diagrams help you visualize the branch structure?
+
+    Allows me to see the relationship of each branch to the master and the relationship of each to commit to its parent.  I can also visualize the reachability to each commit.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
